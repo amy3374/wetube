@@ -37,4 +37,5 @@ export const search = (req, res) => res.send("Search");
 export const upload = (req, res) => res.send("Upload Video");
 export const deleteVideo = (req, res) => {
   return res.send("Delete Video");
+  return res.send("Delete Video");
 };
