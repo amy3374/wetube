@@ -1,4 +1,4 @@
-import Video from "../models/video";
+import Video from "../models/Video";
 
 export const home = (req, res) => {
   Video.find({}, (error, videos) => {});
